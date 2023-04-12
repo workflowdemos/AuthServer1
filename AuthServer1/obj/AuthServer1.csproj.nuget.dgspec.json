@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\deeagarwal\\source\\repos\\AuthServer1\\AuthServer1\\AuthServer1.csproj": {}
+    "/home/deeagarwal/dev/daprDev/march/AuthServer1/AuthServer1/AuthServer1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\deeagarwal\\source\\repos\\AuthServer1\\AuthServer1\\AuthServer1.csproj": {
+    "/home/deeagarwal/dev/daprDev/march/AuthServer1/AuthServer1/AuthServer1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\deeagarwal\\source\\repos\\AuthServer1\\AuthServer1\\AuthServer1.csproj",
+        "projectUniqueName": "/home/deeagarwal/dev/daprDev/march/AuthServer1/AuthServer1/AuthServer1.csproj",
         "projectName": "AuthServer1",
-        "projectPath": "C:\\Users\\deeagarwal\\source\\repos\\AuthServer1\\AuthServer1\\AuthServer1.csproj",
-        "packagesPath": "C:\\Users\\deeagarwal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\deeagarwal\\source\\repos\\AuthServer1\\AuthServer1\\obj\\",
+        "projectPath": "/home/deeagarwal/dev/daprDev/march/AuthServer1/AuthServer1/AuthServer1.csproj",
+        "packagesPath": "/home/deeagarwal/.nuget/packages/",
+        "outputPath": "/home/deeagarwal/dev/daprDev/march/AuthServer1/AuthServer1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\deeagarwal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/deeagarwal/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,6 +54,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -64,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }

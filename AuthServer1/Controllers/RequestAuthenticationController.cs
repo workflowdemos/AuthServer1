@@ -27,7 +27,7 @@ namespace AuthServer1.Controllers
             bool isEven = counter % 2 == 0;
             return new AuthenticationCall
             {
-                Approved = isEven,
+                Approved = true,
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             };
         }
